@@ -6,7 +6,7 @@ def main():
     numbers = []
     total = 0
     i = 0
-    while total < 5:
+    while i < 5:
         num = random.randint(0,100)
         numbers.append(num)
         i += 1

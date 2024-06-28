@@ -7,9 +7,10 @@ def main():
     total = 0
     i = 0
     while total < 5:
-        num = random.random(0,100)
+        num = random.randint(0,100)
         numbers.append(num)
         i += 1
+    total = sum(numbers)
 
 
     print(f'The random values are {numbers}')
